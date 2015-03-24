@@ -6,6 +6,7 @@ import org.junit.Test;
 import java.io.IOException;
 
 import static org.mockito.Mockito.mock;
+import static org.junit.Assert.*;
 
 /**
  * Created by xinzhao on 3/24/2015.
@@ -38,10 +39,19 @@ public class NewProcessExecutorTest {
         mExecutor.run(mItem);
     }
 
+    /*
+    @Test
+    public void notepadCmd() throws Exception {
+        String[] cmd = {"notepad.exe", "c:\\LibAntiPrtSc_ERROR.log"};
+        mItem.setCommandLine(cmd);
+        mExecutor.run(mItem);
+    }
+
     @Test
     public void securityCmd() throws Exception {
         String[] cmd = {"regedit.exe"};
         mItem.setCommandLine(cmd);
         mExecutor.run(mItem);
     }
+    */
 }
