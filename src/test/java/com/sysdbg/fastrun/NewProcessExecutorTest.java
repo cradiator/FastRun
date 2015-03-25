@@ -1,4 +1,4 @@
-package com.sysdbg.fastrun.item;
+package com.sysdbg.fastrun;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,6 @@ import org.junit.Test;
 import java.io.IOException;
 
 import static org.mockito.Mockito.mock;
-import static org.junit.Assert.*;
 
 /**
  * Created by xinzhao on 3/24/2015.

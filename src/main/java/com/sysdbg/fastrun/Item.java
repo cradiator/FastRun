@@ -1,4 +1,4 @@
-package com.sysdbg.fastrun.item;
+package com.sysdbg.fastrun;
 
 import java.io.IOException;
 import java.util.UUID;

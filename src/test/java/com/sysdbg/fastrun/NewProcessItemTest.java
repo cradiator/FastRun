@@ -1,6 +1,5 @@
-package com.sysdbg.fastrun.item;
+package com.sysdbg.fastrun;
 
-import com.sysdbg.fastrun.item.NewProcessItem;
 import org.junit.Before;
 import org.junit.Test;
 
