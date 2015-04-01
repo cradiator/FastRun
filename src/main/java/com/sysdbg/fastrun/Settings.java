@@ -15,12 +15,22 @@ public class Settings {
         mNewProcessItems = new ArrayList<NewProcessItem>();
     }
 
-    List<Item> getItems() {
+    /**
+     * Get the items from settings
+     * @return An immutable item list
+     */
+    public List<Item> getItems() {
         ArrayList<Item> result = new ArrayList<Item>();
         result.addAll(mNewProcessItems);
         return result;
     }
 
+    /**
+     *
+     * @param savedSettings
+     * @throws IOException
+     * @throws IllegalArgumentException
+     */
     void load(InputStream savedSettings) throws IOException, IllegalArgumentException {
 
     }
